@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the G settings feature.
+ */
+
+include_once 'g_settings.features.inc';
