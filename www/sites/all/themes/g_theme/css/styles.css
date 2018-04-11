@@ -1,3 +1,16 @@
+body {
+  color: #1f1f21;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.sidebar {
+  background-color: black;
+}
+
 #main {
   display: -ms-grid;
   display: grid;
@@ -8,7 +21,6 @@
 .sidebar {
   -ms-grid-column: 2;
       grid-column-start: 2;
-  background-color: black;
 }
 
 .element-invisible {
