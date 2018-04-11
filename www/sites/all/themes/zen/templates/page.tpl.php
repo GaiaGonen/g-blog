@@ -8,6 +8,7 @@
  */
 ?>
 
+<link href="https://fonts.googleapis.com/css?family=Dosis|Hi+Melody" rel="stylesheet">
 <div class="layout-center">
 
   <header class="header" role="banner">
