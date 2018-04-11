@@ -32,7 +32,8 @@
                         <?php print $feed_icons; ?>
                     </div></div> <!-- /.section, /#content -->
 
-                <div class="column sidebar"><div class="section">
+                <div class="column sidebar">
+                    <div class="section">
                         <?php if ($logo): ?>
                             <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" id="logo">
                                 <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
@@ -75,7 +76,8 @@
                         <?php endif; ?>
 
                         <?php print render($page['sidebar_first']); ?>
-                    </div></div> <!-- /.section, /#sidebar-first -->
+                    </div>
+                </div> <!-- /.section, /#sidebar-first -->
 
 
                 <?php if ($page['sidebar_second']): ?>
