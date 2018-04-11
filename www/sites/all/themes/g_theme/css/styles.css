@@ -5,9 +5,10 @@
       grid-template-columns: 70% 30%;
 }
 
-#sidebar {
+.sidebar {
   -ms-grid-column: 2;
       grid-column-start: 2;
+  background-color: black;
 }
 
 .element-invisible {

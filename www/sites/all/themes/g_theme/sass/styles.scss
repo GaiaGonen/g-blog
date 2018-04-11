@@ -3,8 +3,9 @@
   grid-template-columns: 70% 30%;
 }
 
-#sidebar {
+.sidebar {
   grid-column-start: 2;
+  background-color: black;
 }
 
 .element-invisible {
